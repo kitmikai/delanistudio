@@ -21,7 +21,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* min-height: 400px; */
     width: 100%;
     height: 800px;
     text-align: center;
@@ -45,6 +44,22 @@ body {
     font-size: 22px;
 }
 
+/* About Us styling */
+.about-container {
+    text-align: center;
+    padding: 50px 100px 55px 100px;
+}
+
+.about-container h1 {
+    text-transform: uppercase;
+}
+
+.about-container p {
+    padding-top: 10px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-size: 20px;
+}
 /* Services styling */
 .services {
     background-image: url(../assets/backgrounds/s_image.jpg);
