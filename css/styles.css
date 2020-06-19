@@ -204,3 +204,27 @@ body {
     background: #61b1ff;
     color: #fff;
 }
+
+/* Footer Styling */
+.footer {
+    background: #fff;
+    margin-top: 3rem;
+
+}
+
+.mediarow {
+   margin: 0 200px 0 300px;
+}
+
+.mediarow img {
+    position: relative;
+    margin:0px 5px 0px 0px;
+    padding: 5px 10px 0px 10px;
+}
+
+.copy {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+}
