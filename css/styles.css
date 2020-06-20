@@ -88,12 +88,17 @@ body {
 /* Boxes */
 
 .boxes {
-    padding: 80px 100px 55px 100px;
+    padding: 30px 100px 55px 100px;
     display: grid;
     grid-gap:20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+.boxes-header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0 5px 0px;
+}
 .boxes h5 {
     text-transform: uppercase;
     font-size: medium;
@@ -107,14 +112,15 @@ body {
 
 /* Portforlio styling */
 .portfolio {
-    padding: 80px 200px 55px 200px;
-    /* display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
-    text-align: center; */
+    padding: 0px 200px 55px 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* grid-gap: 5px; */
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) */
+    /* text-align: center; */
 }
 
-.portfolio h1 {
+.portfolio-header h1 {
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 15px;
