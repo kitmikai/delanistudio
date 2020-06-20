@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // What we do box toggle effect
     $('#desbox').click(function() {
         $('#desbox').addClass('active');
         $('.desbox').toggleClass('active');
@@ -22,18 +23,13 @@ $(document).ready(function() {
 
     // Portfolio hover effect
     const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+        portfolioItems.forEach(portfolioItem => {
+            portfolioItem.addEventListener('mouseover', () => {
+                portfolioItem.childNodes[1].classList.add('img-lighter');
+            });
 
-  portfolioItems.forEach(portfolioItem => {
-    portfolioItem.addEventListener('mouseover', () => {
-      portfolioItem.childNodes[1].classList.add('img-lighter');
+            portfolioItem.addEventListener('mouseout', () => {
+                portfolioItem.childNodes[1].classList.remove('img-lighter');
+            });
     });
-
-    portfolioItem.addEventListener('mouseout', () => {
-      portfolioItem.childNodes[1].classList.remove('img-lighter');
-    });
-  });
-
-
-
-
 });

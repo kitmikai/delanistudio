@@ -109,7 +109,6 @@ body {
     padding: 1.5rem 2 rem;
 }
 
-
 /* Portforlio styling */
 .portfolio {
     padding: 0px 200px 55px 200px;
@@ -134,14 +133,7 @@ body {
     background-repeat: no-repeat;
     height: 200px;
     width: 100%;
-    /* padding: 0 10px 35px 0; */
 }
-
-/* .portfolio img {
-    width: 250px;
-    padding: 0 20px 35px 0;
-    box-shadow: var(--shadow);
-} */
 
 .img-text-wrapper {
     position: absolute;
