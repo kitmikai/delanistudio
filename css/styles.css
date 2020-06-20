@@ -156,7 +156,6 @@ body {
     margin-bottom: 20px;
 }
 
-
 .formcontainer input[type="text"], textarea
 {
     border:none;
@@ -209,7 +208,6 @@ body {
 .footer {
     background: #fff;
     margin-top: 3rem;
-
 }
 
 .mediarow {
@@ -227,4 +225,15 @@ body {
     text-align: center;
     padding: 1rem;
     text-transform: uppercase;
+}
+
+/* Toggle class */
+.active {
+    border: 2px solid black;
+    text-align: center;
+    background-color: red;
+}
+
+.active h5 {
+    font-weight: bold;
 }
