@@ -12,8 +12,8 @@ The app has been published on Github pages, [**check it out!**](https://kitmikai
 
 - Create a folder in your computer
 - cd into the folder you created
-- Clone this repo https://github.com/kitmikai/akan.git in this folder
-- cd akan
+- Clone this repo https://github.com/kitmikai/delanistudio.git in this folder
+- cd delanistudio
 - Open the file index.html in your browser
 
 ## Built with
