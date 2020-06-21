@@ -154,7 +154,7 @@ body {
   
   .img-lighter {
     transition: 1s;
-    filter: brightness(45%)
+    filter: brightness(45%);
   }
   
   .img-text-wrapper:hover .subtitle {
@@ -267,6 +267,14 @@ body {
     background: #61b1ff;
     color: #fff;
 }
+
+.error_form {
+	top: 12px;
+	color: rgb(216, 15, 15);
+    font-size: 15px;
+    font-family: Helvetica;
+}
+
 /* Footer Styling */
 .footer {
     background: #fff;
