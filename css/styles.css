@@ -1,6 +1,7 @@
 body {
     margin: 0 230px;
     background-color: #000;
+    font-family: 'Lato';
 }
 
 .wrapper   {
@@ -9,11 +10,6 @@ body {
 /* Welcome styling */
 .top-container {
     margin: 0px;
-    /* background-image: url(../assets/backgrounds/h_img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-    /* height: 1071px; */
 }
 
 .showcase {
@@ -92,6 +88,7 @@ body {
     display: grid;
     grid-gap:20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    height:200px;
 }
 
 .boxes-header h1 {
@@ -101,7 +98,8 @@ body {
 }
 .boxes h5 {
     text-transform: uppercase;
-    font-size: medium;
+    font-weight: bold;
+    font-size: small;
 }
 
 .box {
@@ -193,7 +191,7 @@ body {
     margin-bottom: 20px;
 }
 
-.formcontainer input[type="text"], textarea
+.formcontainer input[type="text"], input[type="email"], textarea
 {
     border:none;
     border: 2px solid #fff;
@@ -209,6 +207,16 @@ body {
     min-height: 200px;
     max-height: 200px;
 }
+
+.formcontainer #error-message {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  
 
 ::placeholder {
     color: #fff;
@@ -230,8 +238,9 @@ body {
     height: 43px;
     background: dodgerblue;
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 5px;
     color:#fff;
+    text-transform: capitalize;
 }
 
 .formcontainer input[type="submit"]:hover
@@ -241,6 +250,23 @@ body {
     color: #fff;
 }
 
+.btnsubmit {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 43px;
+    background: dodgerblue;
+    font-size: 18px;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: capitalize;
+}
+
+.btnsubmit:hover {
+    cursor:pointer;
+    background: #61b1ff;
+    color: #fff;
+}
 /* Footer Styling */
 .footer {
     background: #fff;
@@ -276,7 +302,7 @@ body {
 }
 
 /* Modal Popup */
-.mail-modal {
+.popup {
     position: absolute;
     top: 0;
     display: flex;
@@ -285,7 +311,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    
+    /* z-index: 1000; */
 }
 
 .modal-content {
