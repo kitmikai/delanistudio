@@ -6,7 +6,7 @@ A project to implement HTML5, Bootstrap and JQuery to recreate a landing page fo
 
 ## Demo
 
-The app has been published on Github pages, [**check it out!**](https://kitmikai.github.io/akan)
+The app has been published on Github pages, [**check it out!**](https://kitmikai.github.io/delanistudio/)
 
 ## Installation
 
