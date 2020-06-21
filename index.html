@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Delani Studio</title>
 </head>
 <body>
@@ -105,21 +105,22 @@
         <section class="contact" >
             <h1>Contact Us</h1>
             <div class="formcontainer">
+                <div id="error-message"></div>
                 <form action="https://gmail.us10.list-manage.com/subscribe/post?u=5e86be555a3ee6c414041a89f&amp;id=fc7304b71f" method="post" >
                     <input type="text" name="name" id="txtname" placeholder="Name">
                     <input type="email" name="email" id="txtemail" placeholder="Email">
                     <textarea name="message" id="txtmessage" placeholder="Type your message here" cols="30" rows="10"></textarea>
-                    <!-- <input type="submit" name="submit" id="btnsubmit">   -->
-                    <button class="btnsubmit">Submit</button>
+                    <input type="submit" name="submit" id="btnsubmit">  
+                    <!-- <button class="btnsubmit">Submit</button> -->
                 </form>
 
             </div>
-            <div class="popup">
+            <!-- <div class="popup">
                 <div class="modal-content">
                     <div class="close">+</div>
                     <p>We have received your message.<br> Thank you for reaching out! </p>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <footer class="footer">
@@ -140,7 +141,7 @@
             </div>
         </section>
     </div>
-    <script src="/js/jquery-3.5.1.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
