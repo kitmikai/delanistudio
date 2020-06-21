@@ -32,4 +32,11 @@ $(document).ready(function() {
                 portfolioItem.childNodes[1].classList.remove('img-lighter');
             });
     });
+
+    $('submit').on('click', function(){
+        const name = $('#txtname').val();
+        var strLength = $.trim(name).length;
+        alert('Dear ' + name + ', We have received your message. Thank you for reaching out!');
+    });
+    
 });
