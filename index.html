@@ -106,12 +106,20 @@
             <h1>Contact Us</h1>
             <div class="formcontainer">
                 <div id="error-message"></div>
-                <form action="https://gmail.us10.list-manage.com/subscribe/post?u=5e86be555a3ee6c414041a89f&amp;id=fc7304b71f" method="post" >
-                    <input type="text" name="name" id="txtname" placeholder="Name">
-                    <input type="email" name="email" id="txtemail" placeholder="Email">
-                    <textarea name="message" id="txtmessage" placeholder="Type your message here" cols="30" rows="10"></textarea>
-                    <input type="submit" name="submit" id="btnsubmit">  
-                    <!-- <button class="btnsubmit">Submit</button> -->
+                <form id="contact_form" action="https://gmail.us10.list-manage.com/subscribe/post?u=5e86be555a3ee6c414041a89f&amp;id=fc7304b71f" method="post" >
+                    <div>
+                        <input type="text" name="name" id="txtname" placeholder="Name">
+                        <span class="error_form" id="cname_error_message"></span>
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="txtemail" placeholder="Email">
+                        <span class="error_form" id="cname_error_message"></span>
+                    </div>
+                    <div>
+                        <textarea name="message" id="txtmessage" placeholder="Type your message here" cols="30" rows="10"></textarea>
+                        <span class="error_form" id="msg_error_message"></span>
+                    </div>
+                    <input type="submit" name="submit" id="btnsubmit" value="Submit">  
                 </form>
 
             </div>
@@ -142,6 +150,6 @@
         </section>
     </div>
     <script src="./js/jquery-3.5.1.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/script02.js"></script>
 </body>
 </html>
