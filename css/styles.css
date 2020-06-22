@@ -107,6 +107,11 @@ body {
     padding: 1.5rem 2 rem;
 }
 
+.box p {
+    display: none;
+    text-align: justify;
+}
+
 /* Portforlio styling */
 .portfolio {
     padding: 0px 200px 55px 200px;
