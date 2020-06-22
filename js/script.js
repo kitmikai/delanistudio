@@ -3,13 +3,16 @@ $(document).ready(function(){
     $(function() {
          // What we do box toggle effect
         $('#desbox').click(function() {
-            $('#desbox').addClass('active');
-            $('.desbox').toggleClass('active');
-            $('#design').toggle();
-            $('#desbox').removeClass('active');
+           $('.design-para').toggle();
+           $('#desbox').addClass('active');
+           $('.desbox').toggleClass('active');
+           $('#design').toggle();
+           $('#desbox').removeClass('active');
         });
 
+
         $('#devbox').on('click', function () {
+            $('.dev-para').toggle();
             $('#devbox').addClass('active');
             $('.devbox').toggleClass('active');
             $('#dev').toggle();
@@ -17,6 +20,7 @@ $(document).ready(function(){
         });
 
         $('#prodbox').on('click', function () {
+            $('.product-para').toggle();
             $('#prodbox').addClass('active');
             $('.prodbox').toggleClass('active');
             $('#product').toggle();
