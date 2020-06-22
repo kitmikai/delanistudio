@@ -1,12 +1,13 @@
 body {
     margin: 0 230px;
     background-color: #000;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
 }
 
 .wrapper   {
     background-color: #fff;
 }
+
 /* Welcome styling */
 .top-container {
     margin: 0px;
@@ -82,7 +83,6 @@ body {
 }
 
 /* Boxes */
-
 .boxes {
     padding: 30px 100px 55px 100px;
     display: grid;
@@ -122,6 +122,7 @@ body {
 
 .portfolio-item-wrapper {
     position: relative;
+    
 }
 
 .portfolio-header h1 {
@@ -149,23 +150,31 @@ body {
     text-align: center;
     padding-left: 60px;
     padding-right: 60px;
+    
   }
   
-  .img-text-wrapper .subtitle {
+.img-text-wrapper:hover {
+    background-color: rgba(255, 255, 255, 0.456);
+}
+
+.img-text-wrapper .subtitle {
     transition: 1s;
     font-weight: 600;
     color: transparent;
-  }
+    width: 100%;
+    
+}
   
-  .img-lighter {
+.img-lighter {
     transition: 1s;
-    filter: brightness(45%);
-  }
+    filter: brightness(55%);
+}
   
-  .img-text-wrapper:hover .subtitle {
+.img-text-wrapper:hover .subtitle {
+    width: 100%;
     font-weight: 600;
-    color: #fff;
-  }
+    color: seashell;
+}
 
 /* Contact styling */
 .contact {
@@ -188,7 +197,6 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     border-radius: 5px;
-    /* box-shadow: 0px 5px 10px rgba(0,0,0,.2); */
 }
 
 .formcontainer input {
@@ -220,21 +228,20 @@ body {
     text-align: center;
     font-size: 14px;
     transition: all 0.5s ease;
-  }
-  
+}
 
 ::placeholder {
     color: #fff;
     opacity: 1; /* Firefox */
-  }
+}
   
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:  #fff;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #fff;
-  }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:  #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
 
 .formcontainer input[type="submit"]
 {
